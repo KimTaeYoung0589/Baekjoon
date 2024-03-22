@@ -1,3 +1,3 @@
-letter = input() #input값으로 A를 받음! 
+letter = input()
 
 print(ord(letter))
