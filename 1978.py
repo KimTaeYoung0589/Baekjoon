@@ -1,8 +1,13 @@
-import math
+n = int(input())
+data = list(map(int, input().split()))
+count = 0
 
+for x in data:
+    for i in range(2, x+1):
+        if x % i == 0:
+            if x == i:
+                count += 1
 
-def primenumber(x):
-    for i in range(2, int(math.sqrt(x) + 1)):  # 2부터 x의 제곱근까지의 숫자
-        if x % i == 0:		# 나눠떨어지는 숫자가 있으면 소수가 아님
-            return False
-    return True
+            break
+
+print(count)
