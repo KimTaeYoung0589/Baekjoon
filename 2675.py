@@ -6,16 +6,10 @@
 # for i in range(0, len(word)):
 #     P = len[i] * R
 
-n = int(input())
-data = list(map(int, input().split()))
-count = 0
+Case = int(input())
 
-for x in data:
-    for i in range(2, x+1):
-        if x % i == 0:
-            if x == i:
-                count += 1
-
-            break
-
-print(count)
+for i in range(Case):
+    N, S = input().split()
+    for j in range(len(S)):
+        print(S[j] * int(N), end='')
+    print('')
