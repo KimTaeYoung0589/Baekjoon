@@ -1,3 +1,4 @@
+# 사칙연산
 import sys
 # list()로 묶는 경우 리스트로의 변환을 수행하므로 메모리를 더 소비할 수 있음 but 대부분의 로직에서 그렇게 큰 차이는 없을 것
 # A, B = list(map(int, sys.stdin.readline().split()))
