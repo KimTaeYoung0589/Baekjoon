@@ -1,3 +1,4 @@
+# 1914 하노이 탑
 def f(n, a, b, c):
     if (n == 1):
         print(a, c, sep=" ")
