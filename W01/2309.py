@@ -11,13 +11,12 @@
 #             print(j)
 #         break
 
+
 # itertools 라이브러리 사용하지 않음
 arr = [(int(input())) for _ in range(9)]
 arr.sort()  # 오름차순 정렬
 temp = []   # 7 난쟁이 목록
 find = False  # 찾음 여부
-
-# DFS
 
 
 def dfs(depth):
