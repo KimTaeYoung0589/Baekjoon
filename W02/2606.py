@@ -1,3 +1,4 @@
+# 바이러스
 from collections import deque
 from sys import stdin
 
