@@ -8,5 +8,5 @@ for i in range(1, N + 1):
     print(" " * (N - i) + "*" * i)
 
 # 다른 풀이
-n = int(input())
-[print(' ' * (n - i) + '*' * i)for i in range(1,n + 1)]
+# n = int(input())
+# [print(' ' * (n - i) + '*' * i)for i in range(1,n + 1)]
