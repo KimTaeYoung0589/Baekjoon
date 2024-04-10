@@ -11,3 +11,10 @@ for i in range(N):
     if number[i] == v: cnt += 1
 
 print(cnt)
+
+# 다른 풀이
+# a = int(input())
+# arr = list(map(int, input().split()))
+# n = int(input())
+
+# print(arr.count(n))
